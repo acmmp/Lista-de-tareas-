@@ -1,0 +1,31 @@
+body {
+    padding-top: 50px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/429/746/non_2x/abstract-background-gradient-abstract-modern-background-for-mobile-apps-free-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.task-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+}
+.task-list {
+    margin-top: 20px;
+}
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e9ecef;
+}
+.task-item:last-child {
+    border-bottom: none;
+}
+#calendar {
+    margin-top: 50px;
+}
+
