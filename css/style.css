@@ -29,3 +29,35 @@ body {
     margin-top: 50px;
 }
 
+/* Estilos generales */
+
+/* Ajuste de tamaño para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    .task-container {
+        padding: 10px; /* Reducción del padding */
+    }
+
+    .task-container .form-row {
+        flex-wrap: wrap; /* Ajuste de los elementos de fila para dispositivos móviles */
+    }
+
+    .task-container .form-row .col {
+        width: 100%; /* Ajuste del ancho de las columnas para dispositivos móviles */
+        margin-bottom: 10px; /* Espacio entre los elementos de la fila */
+    }
+
+    #calendar-container {
+        max-width: 100%; /* Ajuste del ancho máximo del contenedor del calendario para dispositivos móviles */
+    }
+
+    #calendar {
+        height: 200px; /* Reducción de la altura del calendario para dispositivos móviles */
+    }
+
+    
+}
+
+
+
+
+
