@@ -5,16 +5,19 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .task-container {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.95);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-top: 30px;
 }
+
 .task-list {
     margin-top: 20px;
 }
+
 .task-item {
     display: flex;
     justify-content: space-between;
@@ -22,42 +25,34 @@ body {
     padding: 10px;
     border-bottom: 1px solid #e9ecef;
 }
+
 .task-item:last-child {
     border-bottom: none;
 }
+
 #calendar {
     margin-top: 50px;
 }
 
-/* Estilos generales */
-
-/* Ajuste de tamaño para pantallas pequeñas (móviles) */
 @media (max-width: 767px) {
     .task-container {
-        padding: 10px; /* Reducción del padding */
+        padding: 10px;
     }
 
     .task-container .form-row {
-        flex-wrap: wrap; /* Ajuste de los elementos de fila para dispositivos móviles */
+        flex-wrap: wrap;
     }
 
     .task-container .form-row .col {
-        width: 100%; /* Ajuste del ancho de las columnas para dispositivos móviles */
-        margin-bottom: 10px; /* Espacio entre los elementos de la fila */
+        width: 100%;
+        margin-bottom: 10px;
     }
 
     #calendar-container {
-        max-width: 100%; /* Ajuste del ancho máximo del contenedor del calendario para dispositivos móviles */
+        max-width: 100%;
     }
 
     #calendar {
-        height: 200px; /* Reducción de la altura del calendario para dispositivos móviles */
+        height: 200px;
     }
-
-    
 }
-
-
-
-
-
